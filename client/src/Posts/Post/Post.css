@@ -1,0 +1,65 @@
+
+
+
+.post{
+    -webkit-box-shadow: 7px 7px 0px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 7px 0px 3px rgba(0,0,0,1);
+    box-shadow: 7px 7px 0px 3px rgba(0,0,0,1);
+    border-radius: 12px;
+    width: fit-content;
+    max-width: 350px;
+    border: 2px solid rgb(48, 48, 48);
+    height: fit-content;
+    padding: 1.1em 1.8em 1.1em 1.8em;
+    margin: .7em .7em .7em .7em;
+    display:  inline-block;
+    word-wrap:break-word;
+    background-color: rgb(255, 255, 255);
+}
+
+.post:hover{
+    background-color: rgb(239, 238, 255);
+}
+
+.post h1{
+    padding-bottom: .5em;
+}
+
+.deleteIcon{
+    transition: all .2s;
+    width: 30px;
+    padding: 0 .2em 0 .2em;
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+.editIcon{
+    transition: all .2s;
+    width: 30px;
+    padding: 0 .2em 0 .2em;
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+.logos{
+    display: flex;
+    margin: .6em 0 .4em 0;
+    float: right;
+    width: fit-content;
+}
+
+.editIcon:hover{
+    transition: all .2s;
+    color: rgb(123, 123, 255);
+}
+
+.deleteIcon:hover{
+    transition: all .2s;
+    color: rgb(240, 70, 70);
+}
+
+.colorPick{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}

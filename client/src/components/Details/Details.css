@@ -1,0 +1,17 @@
+.selectedPost{
+    margin: 5em auto;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+.selectedTitle{
+    text-align: center;
+    padding: 1em;
+    border-bottom: 2px solid black;
+}
+
+.selectedContent{
+    text-align: center;
+    margin: 1em auto;
+    padding: 2em 4em;
+}

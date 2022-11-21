@@ -1,0 +1,36 @@
+
+.posts{
+    column-count: 4;
+    margin-top: 4em;
+}
+
+.container{
+    margin: 1em;
+}
+
+.errorMsg{
+    color: rgb(95, 105, 252);
+    text-decoration:  underline rgba(21, 32, 190, 0.425);
+    text-align: center;
+    margin: 4em 1em 4em 1em;
+    width: fit-content;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 800px) and (min-width: 0px){
+    .posts{
+        column-count: 1;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px){
+    .posts{
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1000px){
+    .posts{
+        column-count: 3;
+    }
+}
